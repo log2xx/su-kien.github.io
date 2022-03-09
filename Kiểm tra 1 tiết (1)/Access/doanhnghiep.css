@@ -1,0 +1,141 @@
+.enterprise-imgage {
+    width: 100%;
+    height: 500px;
+}
+
+.enterprise-title {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--color-group-main);
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+.enterprise-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-bottom: 3px solid #f00;
+    width: 100px;
+}
+
+.card .card-img-top {
+    height: 250px;
+}
+
+.card-body .card-title {
+    margin-bottom: 10px;
+}
+
+.card-body .card-text {
+    display: block;
+    display: -webkit-box;
+    max-width: 400px;
+    height: 16px*1.3*3;
+    /* Fallback for non-webkit */
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: var(--color-group-main);
+}
+
+.number {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.number-item {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.number-item a {
+    text-decoration: none;
+    color: rgb(20, 20, 19);
+}
+
+.number-item:hover {
+    background-color: #f00;
+}
+
+.table-enterprise {
+    width: 361px;
+    height: 200px;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.topic-enterprise {
+    width: 361px;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.list-active {
+    background-color: #3ac2bd;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.enterprise-list {
+    list-style: none;
+    color: #3ac2bd;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.enterprise-item {
+    margin: 10px;
+}
+
+.item-link {
+    color: #3ac2bd;
+    text-decoration: none;
+}
+
+.list-event:hover {
+    color: var(--font-size-primary);
+}
+
+.event-item:hover {
+    color: var(--color-group-main);
+}
+
+.list-event {
+    color: #3ac2bd;
+}
+
+.shows-list .list-event-item {
+    list-style: none;
+}
+
+.list-event-item {
+    margin-bottom: 10px;
+}

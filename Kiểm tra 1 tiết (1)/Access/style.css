@@ -1,0 +1,281 @@
+    /* Header */
+    
+    #Header {
+        height: 133px;
+        background-color: black;
+    }
+    
+    .infoText-logo {
+        width: 20%;
+        float: left;
+    }
+    
+    .infoText-logo .logo-image {
+        width: 200px;
+        height: 133px;
+        margin-left: 8px;
+    }
+    
+    .header-contact {
+        float: right;
+        width: 80%;
+        margin-top: 11px;
+    }
+    
+    .contactText {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .contactText h3 {
+        color: var(--font-size-primary);
+        font-size: var(--font-size-main);
+    }
+    
+    .contact {
+        list-style: none;
+        display: flex;
+        line-height: 0rem;
+    }
+    
+    .list-contact .text {
+        margin-top: 20px;
+    }
+    
+    .list-contact i {
+        margin-top: 20px;
+        color: white;
+        font-size: 40px;
+    }
+    
+    .email,
+    .phone {
+        margin-right: 20px;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .text {
+        padding: 1px 0 0 16px;
+        line-height: 18px;
+    }
+    
+    .list-contact span {
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .header-menu {
+        margin-top: 3%;
+        position: relative;
+        bottom: 0;
+    }
+    
+    .menu-list {
+        list-style: none;
+        padding: 0;
+        background-color: var(--color-group-main);
+    }
+    
+    .search {
+        position: relative;
+        box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+    }
+    
+    .search input {
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4
+    }
+    
+    .search input:focus {
+        box-shadow: none;
+        border: 2px solid blue
+    }
+    
+    .search .fa-search {
+        position: absolute;
+        top: 20px;
+        left: 16px
+    }
+    
+    .search button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: blue
+    }
+    
+    .background-menu {
+        border-radius: 10px;
+    }
+    /* Banner */
+    
+    .carousel-inner {
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    
+    .carousel-item img {
+        height: 540px;
+    }
+    
+    .carousel-control-prev-icon:hover {
+        transition: ease-in-out 0.2s;
+        border-radius: 5px;
+        background-color: rgb(206, 201, 195);
+    }
+    
+    .carousel-control-next-icon:hover {
+        transition: ease-in-out 0.2s;
+        border-radius: 5px;
+        background-color: rgb(206, 201, 195);
+    }
+    
+    .title {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .title .title-about h2 {
+        font-size: var(--font-size-main);
+        color: var(--color-group-main);
+    }
+    
+    .title-about p {
+        font-size: 1.2rem;
+        text-align: center;
+        border: 2px saddlebrown solid;
+        border-radius: 20px;
+    }
+    
+    .title-img img {
+        width: 400px;
+        height: 290px;
+        box-shadow: 3px 5px 3px rgb(142, 142, 146);
+        border-radius: 5px;
+    }
+    
+    .title-icon .icon {
+        display: flex;
+        font-size: var(--font-size-main);
+        list-style: none;
+    }
+    
+    .criteria-title {
+        margin-top: 20px;
+    }
+    
+    .title-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .title-icon span {
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    
+    .title-icon .icon li {
+        margin: 10px 30px;
+        border: 2px solid var(--color-group-main);
+        border-radius: 45%;
+        padding: 30px;
+        color: var(--color-group-main);
+        cursor: pointer;
+    }
+    
+    .title-icon .icon li:hover {
+        color: white;
+        background-color: var(--color-group-main);
+    }
+    
+    .service-group {
+        border: 1px solid white;
+        padding: 30px;
+        border-radius: 20px;
+        background-image: url(/Images/to-chuc-su-kien.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+        z-index: 0;
+    }
+    
+    .img-area img {
+        width: 300px;
+        height: 280px;
+    }
+    
+    .service-list .service-title {
+        font-size: 2rem;
+        text-align: center;
+        color: var(--font-size-primary);
+        font-weight: 800;
+        font-style: normal;
+        text-transform: capitalize;
+    }
+    
+    .service-list .service-p {
+        text-align: center;
+        font-style: italic;
+        color: var(--color-group-main);
+        font-size: 1.4rem;
+    }
+    
+    .single-box {
+        width: 300px;
+        height: 415px;
+        background-color: antiquewhite;
+        cursor: pointer;
+    }
+    
+    .about-list li {
+        list-style: none;
+    }
+    
+    .about-list {
+        padding-left: 0;
+        width: 300px;
+        height: 280px;
+    }
+    
+    .about-list h2 {
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    .about-list li p {
+        font-size: 0.9rem;
+        padding: 0 20px;
+    }
+    /* Chân trang */
+    
+    footer {}
+    
+    .row h4 {
+        font-size: 1.3rem;
+        cursor: inherit;
+        margin-top: 10px;
+    }
+    
+    .row .row_link {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .row .link_contact {
+        width: 273px;
+        height: 100px;
+    }
+    
+    .col iframe {
+        margin-top: 30px;
+    }
+    /* Chân trang */

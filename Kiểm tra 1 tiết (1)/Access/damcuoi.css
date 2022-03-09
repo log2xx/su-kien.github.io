@@ -1,0 +1,209 @@
+/* Wedding */
+
+.enterprise-imgage {
+    width: 100%;
+    height: 500px;
+}
+
+.wedding {
+    margin-top: 20px;
+}
+
+.wedding-title {
+    color: var(--color-group-main);
+    font-family: 'Merriweather', serif;
+}
+
+.active-text {
+    color: #97b28e;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+}
+
+.wedding-shows {
+    width: 500px;
+    height: 240px;
+    background-color: #f2f2f2;
+    border: 1px saddlebrown solid;
+    border-radius: 2px;
+}
+
+.wedding-text {
+    margin-top: 10px;
+}
+
+.wedding-title {
+    margin-top: 10px;
+}
+
+.image-wedding {
+    width: 840px;
+}
+
+.shows-list {
+    padding: 20px 15px;
+    list-style: none;
+    cursor: pointer;
+    color: #666;
+}
+
+.list-event:hover {
+    color: var(--color-group-main);
+}
+
+.event-item:hover {
+    color: var(--color-group-main);
+}
+
+.shows-list .list-event-item {
+    list-style: none;
+}
+
+.post-body table {
+    width: 100%;
+}
+
+.post-body table td,
+.post-body table caption {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    text-align: left;
+    vertical-align: top
+}
+
+.post-body table th {
+    background: #e74c3c;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 0;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top
+}
+
+.post-body table.tr-caption-container {
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    margin: 0;
+}
+
+.post-body th {
+    font-weight: 700;
+}
+
+.post-body table caption {
+    border: none;
+    font-style: italic;
+}
+
+.post-body td,
+.post-body th {
+    vertical-align: top;
+    text-align: left;
+    font-size: 13px;
+    padding: 3px 5px;
+    border: 1px solid #97b28e;
+}
+
+.post-body th:hover {
+    color: #fff;
+}
+
+.post-body td a {
+    color: #444;
+}
+
+.post-body td a:hover {
+    color: #cf4d35;
+}
+
+.post-body table.tr-caption-container td {
+    border: 0;
+    padding: 8px;
+    background: #fff;
+    line-height: 17px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    color: #000;
+}
+
+.post-body table.tr-caption-container,
+.post-body table.tr-caption-container img,
+.post-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-body li {
+    list-style-type: square;
+}
+
+.post-body td.tr-caption {
+    color: #666;
+    font-size: 80%;
+    padding: 0px 8px 8px!important;
+}
+
+.sr {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+    background: #effdca;
+    text-shadow: none;
+}
+
+.table-wedding {
+    width: 361px;
+    height: 300px;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.list-active {
+    background-color: #3ac2bd;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.wedding-list {
+    color: #3ac2bd;
+    font-size: 1.2rem;
+}
+
+.wedding-item {
+    margin: 10px;
+}
+
+.item-link {
+    color: #3ac2bd;
+    text-decoration: none;
+}
+
+.topic-wedding {
+    width: 361px;
+    height: 300px;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    border-radius: 10px;
+}

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Access/style.css">
+    <link rel="stylesheet" href="./Access/main.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta2-web/fontawesome-free-6.0.0-beta2-web/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Trung Tâm Tổ Chức Sự Kiện | Lễ Hội | Book Tour</title>
+</head>
+
+<body>
+
+    <!-- Đầu trang -->
+    <header id="Header">
+        <div class="infoText-logo">
+            <img class="logo-image" src="./Images/logo.jpg" alt="">
+        </div>
+
+        <div class="contactText">
+            <h3>Công ty TNHH Lạc Long Quân</h3>
+            <ul class="contact">
+                <li class="list-contact email">
+                    <i class="far fa-envelope"></i>
+                    <div class="text">
+                        <span>Liên hệ</span> <br>
+                        <span>lvl2382001@gmail.com</span>
+                    </div>
+                </li>
+                <li class="list-contact phone">
+                    <i class="fas fa-phone"></i>
+                    <div class="text">
+                        <span>Liên hệ</span> <br>
+                        <span>0359628642</span>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <nav class=" navbar navbar-expand-lg navbar-dark bg-gradient">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Trang Chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Giới Thiệu</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dịch vụ
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="damcuoi.html">Tổ chức Đám cưới</a></li>
+                                <li><a class="dropdown-item" href="doanhnghiep.html">Tổ chức Event cho doanh nghiệp</a></li>
+                                <li><a class="dropdown-item" href="event.html">Tổ chức sự kiện và quảng bá thương hiệu</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Thân trang -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Images/su-kien-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tropical Glam 1st Birthday Party</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/su-kien-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Cleopatra - The Beauty Empire</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/su-kien3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>60th Gastby Birthday</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/su-kien-5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Paradise Wedding</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About -->
+    <div class=" title container">
+        <div class="row">
+            <div class=" title-about col-sm-8">
+                <h2>Về Chúng Tôi</h2>
+                <p class="titile-text">Chào mừng đến với <strong style="color: red; text-transform: uppercase;">Công ty TNHH Lạc Long Quân</strong></p>
+                <span>Lạc Long Quân tự hào công ty tổ chức sự kiện tại Quảng Ninh uy tín nhất. 
+                    Chất lượng dịch vụ chúng tôi mang đến sẽ làm hài lòng mọi khách hàng.
+                    Chúng tôi hoạt động trên mọi lĩnh vực như: công nghệ, kinh doanh, truyền thông. 
+                    Khách hàng của chúng tôi ở trên toàn quốc và thế giới.
+                </span>
+                <ul class="criteria-title">
+                    <li>Đội ngũ nhân viên chuyên nghiệp, yêu nghề và nhiệt huyết. Họ có đủ kỹ năng, chuyên môn để phục vụ mọi khách hàng</li>
+                    <li>Lĩnh vực hoạt động đa dạng, đáp ứng mọi nhu cầu của khách hàng</li>
+                    <li>Cơ sở vật chất và trang bị hiện đại</li>
+                    <li>Giá thành ưu đãi và có nhiều dịch vụ đi kèm</li>
+                </ul>
+                <div class="title-icon">
+                    <ul class="icon">
+                        <li><i class="fas fa-users"></i></li>
+                        <li><i class="far fa-thumbs-up"></i></li>
+                        <li><i class="fas fa-trophy"></i></li>
+                    </ul>
+                    <span>[ Xem Thêm ]</span>
+                </div>
+            </div>
+            <div class="title-img col-sm-4">
+                <img class="" src="./Images/cong-ty-to-chuc-su-kien.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- service  -->
+
+    <div class="container service-group">
+        <div class="row service-list">
+            <p class="service-title">Dịch vụ nổi bật</p>
+            <p class="service-p">Hãy đến với chúng tôi để có những bộ ảnh sự kiện nhà hàng, sáng tạo và ưng ý nhất.</p>
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/1.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2> CONCEPT DẠ TIỆC TRẮNG</h2>
+                                                </li>
+                                                <li>
+                                                    <p> Chủ đề buổi tiệc lấy cảm hứng từ trào lưu những năm 1966.</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area">
+                                            <img src="./Images/2.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>Trung tâm hội nghị tiệc cưới</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Là một CUNG ĐIỆN tổ chức hội nghị – tiệc cưới đẳng cấp bậc nhất.</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/3.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2> Lễ hội Tết Việt 2021</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Các nghệ sĩ đang tập luyện tại sân khấu chính của chương trình.</p>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/4.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>Lễ kỷ niệm</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Đây là dịp để Doanh nghiệp; Tổ chức cùng tổng kết những thành quả.</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/5.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>Thiết kế đám cưới hội trường</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Một trong những đám cưới ở Vĩnh Phúc gây xôn xao dư luận và cư dân mạng xã hội thời gian gần đây</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/6.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>Tráp ăn hỏi Cát Tường </h2>
+                                                </li>
+                                                <li>
+                                                    <p>Không chỉ trong đám cưới mà còn cả trong cuộc sống, “như ý cát tường” đã trở thành câu chúc quen thuộc mỗi khi có sự kiện đặc biệt.</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/7.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>TÒA NHÀ HANOI TOWER</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Tất cả các trang thiết bị được trang bị tại đây đều đạt tiêu chuẩn 4 sao</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/8.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>Thiết kế sân khấu hội trường tiệc cưới</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Tất cả các trang thiết bị được trang bị tại đây đều đạt tiêu chuẩn 4 sao</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/9.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>Nội thất hội trường nhà hàng tiệc cưới</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Là khu vực khách mời sẽ nán lại lâu nhất và trực tiếp sử dụng dịch vụ nên toàn bộ hệ thống ánh sáng, âm thanh, điều hòa.</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/10.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>Thiết Kế Nội Thất Bar Club Vũ Trường
+                                                    </h2>
+                                                </li>
+                                                <li>
+                                                    <p>Để phát triển thuận lợi và thành công hơn trong lĩnh vực này, chủ đầu tư nên chú trọng đến việc thiết kế nội thất.</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/11.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2>Thiết Kế Bar Club Đẹp Ấn Tượng Nhất</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Không gian trong quán Bar Club được thiết kế đơn giản, mộc mạc</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="single-box">
+                                        <div class="img-area"><img src="./Images/12.jpg"></div>
+                                        <div class="about-service">
+                                            <ul class="about-list">
+                                                <li>
+                                                    <h2> Tổ chức hội nghị khách hàng</h2>
+                                                </li>
+                                                <li>
+                                                    <p>Hội nghị khách hàng là chương trình trọng đại được tổ chức nhằm thể hiện lòng tri ân của doanh nghiệp với những khách hàng của mình</p>
+                                                </li>
+                                            </ul>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chân trang -->
+    <footer style="background-color: rgba(0, 0, 0, 0.133); color: white;">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col md-3">
+                        <h4>Hỗ trợ khách hàng</h4>
+                        <p><a href="" class="row_link">HƯỚNG DẪN Khách Hàng</a></p>
+                        <p><a href="" class="row_link">Điều khoản & Điều kiện Hệ Thống </a></p>
+                        <p><a href="" class="row_link">Chính sách bảo mật và an toàn</a></p>
+                        <p><a href="" class="row_link">Phản hồi</a></p>
+                        <p><a href="" class="row_link">Câu hỏi</a></p>
+                    </div>
+                    <div class="col md-3">
+                        <h4>Liên hệ</h4>
+                        <p class="row_link">Địa chỉ: Số 41 Vũ Phạm Hàm-P.Yên Hòa-Q.Cầu Giấy-Hà Nội-Việt Nam</p>
+                        <p class="row_link">Website: <a href="" class="row_link"> www.dulichhalong.net </a></p>
+                        <p class="row_link">Hotline: 0902073642 </p>
+                        <p class="row_link">Email: <a class="row_link" href="mailto: info@dulichhalong.net "> info@dulichhalong.net </a> </p>
+                    </div>
+                    <div class="col md-3">
+                        <h4>Về Chúng Tôi</h4>
+                        <p><a href="#" class="row_link">Giới thiệu</a></p>
+                        <p><a href="#" class="row_link">Bài viết</a></p>
+                        <p><a href="#" class="row_link">Trang FaceBook</a></p>
+                        <p><a href="#" class="row_link">Liên Hệ</a></p>
+                        <p><a href="#" class="row_link">Thông tin cần biết</a></p>
+                    </div>
+                    <div class="col md-3">
+                        <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLLQ.HighSchool&tabs=timeline&width=300&height=70&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=149461763057406" width="300"
+                            height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back-to-top -->
+    <div id="back-to-top"><span class="fa fa-angle-up"></span></div>
+
+    <!--Chatbox-->
+    <button class="nut-mo-chatbox" onclick="moForm()">Nhắn tin</button>
+    <div class="Chatbox" id="myForm">
+        <form action="" class="form-container">
+            <h1>Chatbox</h1>
+
+            <label for="msg"><b>Lời Nhắn</b></label>
+            <textarea placeholder="Bạn hãy nhập lời nhắn.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Gửi</button>
+            <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Đóng</button>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.1.20/dest/tilt.jquery.min.js"></script>
+    <script src="./Access/Javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

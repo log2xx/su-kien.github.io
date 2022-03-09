@@ -1,0 +1,16 @@
+.news-list {
+    background-color: aliceblue;
+    display: inline-block;
+    list-style: none;
+}
+
+.news-list img {
+    width: 400px;
+    display: block;
+}
+
+.news-menu {
+    width: 400px;
+    display: block;
+    height: 400px;
+}
